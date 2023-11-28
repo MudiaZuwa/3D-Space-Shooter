@@ -30974,7 +30974,7 @@ class by {
       (this.loadingManager = new il());
     const n = new Q0(this.loadingManager).load([
       "../resources/Space Skybox/23-11-02-16-34-05_Right.png",
-      "./resources/Space Skybox/23-11-02-16-34-05_Left.png",
+      "resources/Space Skybox/23-11-02-16-34-05_Left.png",
       "../resources/Space Skybox/23-11-02-16-34-05_Top.png",
       "../resources/Space Skybox/23-11-02-16-34-05_Bottom.png",
       "../resources/Space Skybox/23-11-02-16-34-05_Front.png",
