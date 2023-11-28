@@ -30467,7 +30467,7 @@ class _y {
       (this.healthBars = { 1: "playerHealth2", 2: "playerHealth1" });
   }
   loadModel() {
-    this.loader.load("../resources/FBXs/SpaceShip - Blue.fbx", (e) => {
+    this.loader.load("resources/FBXs/SpaceShip - Blue.fbx", (e) => {
       (this.mixer = new ol(e)),
         e.scale.setScalar(this.scale),
         (this.mesh = e),
@@ -30518,10 +30518,10 @@ class xy {
       (this.loadingManager = new il()),
       (this.player = e.player),
       (this.asteroidModels = [
-        "../resources/FBXs/Asteroid.fbx",
-        "../resources/FBXs/Asteroid1.fbx",
-        "../resources/FBXs/Asteroid2.fbx",
-        "../resources/FBXs/Asteroid3.fbx",
+        "resources/FBXs/Asteroid.fbx",
+        "resources/FBXs/Asteroid1.fbx",
+        "resources/FBXs/Asteroid2.fbx",
+        "resources/FBXs/Asteroid3.fbx",
       ]),
       (this.game = e),
       (this.enemyShips = e.enemyShips),
@@ -30582,8 +30582,8 @@ class vy {
       (this.loader = new ll(this.manager)),
       (this.scale = 1),
       (this.shipModels = [
-        "../resources/FBXs/SpaceShip - Purple.fbx",
-        "../resources/FBXs/SpaceShip - Orange.fbx",
+        "resources/FBXs/SpaceShip - Purple.fbx",
+        "resources/FBXs/SpaceShip - Orange.fbx",
       ]),
       this.loadModel(),
       (this.health = 100),
@@ -30973,12 +30973,12 @@ class by {
         .appendChild(this.renderer.domElement),
       (this.loadingManager = new il());
     const n = new Q0(this.loadingManager).load([
-      "../resources/Space Skybox/23-11-02-16-34-05_Right.png",
+      "resources/Space Skybox/23-11-02-16-34-05_Right.png",
       "resources/Space Skybox/23-11-02-16-34-05_Left.png",
-      "../resources/Space Skybox/23-11-02-16-34-05_Top.png",
-      "../resources/Space Skybox/23-11-02-16-34-05_Bottom.png",
-      "../resources/Space Skybox/23-11-02-16-34-05_Front.png",
-      "../resources/Space Skybox/23-11-02-16-34-05_Back.png",
+      "resources/Space Skybox/23-11-02-16-34-05_Top.png",
+      "resources/Space Skybox/23-11-02-16-34-05_Bottom.png",
+      "resources/Space Skybox/23-11-02-16-34-05_Front.png",
+      "resources/Space Skybox/23-11-02-16-34-05_Back.png",
     ]);
     (n.magFilter = Kt),
       (n.minFilter = jf),
